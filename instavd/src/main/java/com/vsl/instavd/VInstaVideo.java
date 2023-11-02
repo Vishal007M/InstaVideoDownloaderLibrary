@@ -15,7 +15,7 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-public class InstaVideo {
+public class VInstaVideo {
 
     public static void downloadVideo(Context context, String postUrl) {
 
@@ -67,7 +67,7 @@ public class InstaVideo {
                         e.printStackTrace();
                     }
                     Log.d("finalURL", finalVideoUrl[0]);
-                    Util.download(finalVideoUrl[0], Util.RootDirectoryInstagram, context, System.currentTimeMillis() + ".mp4");
+                    Util.download(finalVideoUrl[0], Util.RootDirInstagram, context, System.currentTimeMillis() + ".mp4");
 
 
                 }

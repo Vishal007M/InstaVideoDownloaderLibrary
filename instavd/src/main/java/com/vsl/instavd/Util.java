@@ -9,7 +9,7 @@ import android.widget.Toast;
 public class Util {
 
 
-    public static String RootDirectoryInstagram = "/Insta Video Downloader/instagram videos/";
+    public static String RootDirInstagram = "/Insta Video Downloader/instagram videos/";
 
 
     public static void download(String downloadPath, String destinationPath, Context context, String fileName){
